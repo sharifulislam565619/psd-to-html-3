@@ -1,0 +1,230 @@
+body{
+    font-family: Georgia;
+}
+a{
+    color: #969845;
+    text-decoration: none;
+}
+/* header section start */
+#header-section h1{
+    font-size: 90px;
+    color: #969845;
+}
+#header-section button{
+    color: #fff;
+}
+.row {
+    --bs-gutter-x: 0;
+}
+.row-1{
+    background: #838181;
+    color: #fff;
+}
+.row-1 p{
+    margin-top: 13px;
+    margin-left: 15px;
+}
+.row-1 input[type="search"]{
+    padding: 4px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 50%;
+    background: rgb(155, 155, 155);
+    border-radius: 10px;
+    margin: 9px 15px;
+    position: relative;
+   
+}
+::placeholder{
+    color: #fff;
+}
+.row-1 button {
+    background-image: url(images/s.png);
+    padding: 10px;
+    background-color: rgb(155, 155, 155);
+    font-size: 23px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 18px;
+    right: 155px;
+    border: navajowhite;
+ 
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#AAAAAA;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+        color: #969845;
+    }
+.navbar-light{
+    background: #dfdfdf;
+}
+/* header section end */
+
+
+#banner-section{
+    position: relative;
+}
+.mobile{
+    position: absolute;
+    top: 27px;
+    left: 40px;
+}
+.app_store{
+    position: absolute;
+    right: 55px;
+    top: 436px;
+}
+
+/* services section start */
+#services{
+    margin-top: 100px;
+    padding: 2% 2%;
+}
+.about_title{
+    border-bottom: 1px solid #cacaca;
+   padding: 18px;
+
+}
+.about_title a{
+    float: left;
+    margin-right: 26px;
+    color: #4B90CB;
+   
+   
+}
+#services h3{
+    font-size: 24px;
+}
+.description ul{
+    list-style: none;
+    background-image: url();
+}
+.btn-primary button{
+    color: #fff;
+    background-color: #d32525;
+    border-color: none;
+}
+.description li{
+    line-height: 12px;
+}
+#services button{
+    background:#DCDCDC;
+    border:none;
+    width: 114px;
+    height: 33px;
+    float: right;
+    border-radius:6px;
+}
+.description h5{
+    background-image: url("images/Group_\ 1\ object.png");
+    background-repeat: no-repeat;
+    padding:10px 60px;
+    margin-top: 10px;
+}
+#services .btn_2{
+    width: 200px;
+    margin-top: 60px;
+}
+
+/* services section start */
+
+/* footer section start */
+#footer{
+    background: #393939;
+    padding: 2% 2%;
+    color: #6D6D6D;
+}
+
+#footer ul{
+    list-style: none;
+    padding-left:0px;
+}
+#footer ul li{
+    border-bottom: 1px solid #aaa;
+    width:220px;
+}
+#footer h3{
+    font-family: 'Roboto';
+    font-size:22px;
+}
+input[type=text]{
+    width: 170px;
+    height: 22px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background: #252525;
+    border: none;
+   
+  }
+  textarea {
+    width: 350px;
+    height: 56px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+    background: #252525;
+    border: none;
+  }
+  
+ 
+  input[type=reset], input[type=submit] {
+    background-color: #252525;
+    color: #969845;
+    width: 70px;
+    height: 25px;
+    border: none;
+ 
+  }
+  
+  input[type=submit]:hover, input[type=reset]:hover {
+   color: #fdfffd;
+  }
+  
+
+  .fl_name{
+      display: inline;
+     
+  }
+/* footer section end */
+
+#copyright{
+    background: #161616;
+    color: #cacaca;
+    padding:2% 5%;
+}
+
+
+
+
+@media (max-width:768px){
+    textarea {
+        width: 280px;
+    }
+    #header-section h1{
+        font-size: 40px;
+        color: #969845;
+    }
+    
+    #header-section form{
+        display:none;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #000000;
+        transition: 0.5s;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: red;
+       
+        transform: scale(1.1);
+    }
+}
